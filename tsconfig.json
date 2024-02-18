@@ -31,7 +31,7 @@
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "typed-router.d.ts"
+    "*.d.ts"
   ],
   "references": [
     {
