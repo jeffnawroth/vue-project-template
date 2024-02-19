@@ -1,11 +1,13 @@
 {
   "name": "vue-project-template",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--no-warnings' vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix --ignore-path .gitignore"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@mdi/font": "7.4.47",
@@ -15,6 +17,7 @@
     "vuetify": "^3.5.4"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
     "@babel/types": "^7.23.9",
     "@types/node": "^20.11.19",
     "@vitejs/plugin-vue": "^5.0.4",
